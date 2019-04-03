@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+.doctorList{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  div {
+    margin-top: 20px;
+    width: (90% / 3);
+    border: 1px dotted black;
+    ul {
+      text-align: left;
+    }
+  }
+}
+.reset, .newsearch {
+  display: none;
+}

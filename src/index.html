@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
   </head>
   <body>
     <div class="container">
       <form class="form-field">
+        <h1>Doctor Search</h1>
         <h3>Doctor Name:</h3>
         <input type="text" id="doctorName"></input>
-        <button type="submit" name="button">Submit</button>
-      </form>
-      <div class="doctorList">
+        <h3>Illness:</h3>
+        <input type="text" id="illnessName"></input>
+        <br>
+        <button type="submit" class="submitbutton">Submit</button>
+        <a href="/"><button type="button" class="newsearch">New Search</button></a>
 
-      </div>
+      </form>
+        <h1 class="showErrors"></h1>
+        <div class="doctorList">
+
+        </div>
     </div>
+    <a href="/"><button type="button" class="reset">New Search</button></a>
   </body>
 </html>
